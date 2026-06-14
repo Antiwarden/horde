@@ -22,7 +22,7 @@ var HordeStorage = {
 			if (k === 0 ) {
 				inventory.push({item: keys[k], x: 0, y: 2});
 			} else { //drop all key stacks after first
-				keys[i].drop();
+				keys[k].drop();
 			}
 		}
 			
